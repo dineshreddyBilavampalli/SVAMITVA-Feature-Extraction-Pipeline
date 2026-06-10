@@ -97,16 +97,12 @@ PATHS = {
     "train_masks":  f"{DATA_ROOT}/training/masks_raster",
     "patch_images": f"{DATA_ROOT}/training/patches/images",
     "patch_masks":  f"{DATA_ROOT}/training/patches/masks",
-
     "test_images":  f"{DATA_ROOT}/testing/images",
-
     "unet_out":   f"{HPC_PROJECT}/outputs/predictions",
     "rcnn_out":   f"{HPC_PROJECT}/outputs/rcnn_utilities",
     "final_out":  f"{HPC_PROJECT}/outputs/final_predictions",
-
     "unet_model": f"{HPC_PROJECT}/outputs/best_model.pth",
     "rcnn_model": f"{HPC_PROJECT}/outputs/final/faster_rcnn_utilities.pth",
-
     "samples":    f"{HPC_PROJECT}/samples",
 }
 
