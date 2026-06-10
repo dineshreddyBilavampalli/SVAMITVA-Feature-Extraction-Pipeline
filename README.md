@@ -218,6 +218,9 @@ Pipeline A (DuSA U-Net, 50 epochs) runs on GPU 5. Pipeline B trains three separa
 **Q: What if my shapefiles use a different CRS?**  
 The pipeline re-projects all shapefiles to match each TIF's CRS automatically using `gdf.to_crs(crs)`.
 
+<img width="1324" height="590" alt="image" src="https://github.com/user-attachments/assets/b4efc698-5fd0-4e8c-abf2-9678c5690787" />
+<img width="767" height="790" alt="image" src="https://github.com/user-attachments/assets/88f7646f-1a0f-4084-b051-17114be083d0" />
+
 <img width="1568" height="733" alt="image" src="https://github.com/user-attachments/assets/8a8ca954-067b-4cc8-bdff-926f66f15dec" />
 <img width="1270" height="952" alt="image" src="https://github.com/user-attachments/assets/83c07945-fd99-46dc-af5b-729bd5c32818" />
 <img width="1092" height="1104" alt="image" src="https://github.com/user-attachments/assets/69bd17af-7484-4646-a0cf-7bcdcabcbd7c" />
